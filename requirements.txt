@@ -1,0 +1,4 @@
+Django>=5.0,<6.0
+pandas>=2.2.0
+matplotlib>=3.8.0
+pytz>=2024.1        # Needed for timezone handling in seed_data.py
