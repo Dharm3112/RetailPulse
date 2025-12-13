@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddc71cef-7c1b-4b3d-b2f8-e07452c71f4b" name="Changes" comment="Started Building Retail Pulse">
+    <list default="true" id="ddc71cef-7c1b-4b3d-b2f8-e07452c71f4b" name="Changes" comment="Done Coding Further Fixes And Code Is Being Done In Future">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RetailPulse/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RetailPulse/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forecaster/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/forecaster/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forecaster/management/commands/seed_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/forecaster/management/commands/seed_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forecaster/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/forecaster/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forecaster/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/forecaster/templates/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forecaster/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/forecaster/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forecaster/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/forecaster/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -53,26 +48,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -88,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765634002202</updated>
-      <workItem from="1765634003229" duration="1263000" />
+      <workItem from="1765634003229" duration="2732000" />
     </task>
     <task id="LOCAL-00001" summary="Started Building Retail Pulse">
       <option name="closed" value="true" />
@@ -98,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765634685924</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Done Coding Further Fixes And Code Is Being Done In Future">
+      <option name="closed" value="true" />
+      <created>1765635395156</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765635395156</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started Building Retail Pulse" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started Building Retail Pulse" />
+    <MESSAGE value="Done Coding Further Fixes And Code Is Being Done In Future" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done Coding Further Fixes And Code Is Being Done In Future" />
   </component>
 </project>
