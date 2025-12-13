@@ -1,8 +1,8 @@
 import random
-from datetime import datetime, timedelta
-import pytz
+from datetime import timedelta
+from django.utils import timezone
 from django.core.management.base import BaseCommand
-from your_app.models import Product, Sale  # CHANGE 'your_app' to your actual app name
+from forecaster.models import Product, Sale
 
 
 class Command(BaseCommand):
@@ -11,7 +11,7 @@ class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         self.stdout.write('Seeding data...')
 
-        # 1. Clear existing data
+        # 1. Clean old data
         Sale.objects.all().delete()
         Product.objects.all().delete()
 
@@ -29,21 +29,19 @@ class Command(BaseCommand):
             )
             products.append(prod)
 
-        # 3. Create Sales (Last 12 Months)
+        # 3. Create Sales (Last 365 days)
         sales_to_create = []
-        end_date = datetime.now(pytz.UTC)
+        end_date = timezone.now()
         start_date = end_date - timedelta(days=365)
 
-        for _ in range(600):  # Generate 600 sales
+        for _ in range(600):
             product = random.choice(products)
             qty = random.randint(1, 5)
 
-            # Random time within the year
+            # Random timestamp logic
             random_seconds = random.randint(0, int((end_date - start_date).total_seconds()))
             sale_date = start_date + timedelta(seconds=random_seconds)
 
-            # Logic: Calculate revenue now or let model .save() handle it.
-            # Since we use bulk_create for speed, we calculate manually here.
             revenue = product.price * qty
 
             sales_to_create.append(Sale(
@@ -53,6 +51,8 @@ class Command(BaseCommand):
                 total_revenue=revenue
             ))
 
+        # Bulk create is much faster than looping .save()
         Sale.objects.bulk_create(sales_to_create)
+
         self.stdout.write(
             self.style.SUCCESS(f'Successfully created {len(products)} products and {len(sales_to_create)} sales.'))

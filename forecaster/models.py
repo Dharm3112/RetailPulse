@@ -21,13 +21,13 @@ class Product(models.Model):
 class Sale(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='sales')
     quantity_sold = models.IntegerField()
-    sale_date = models.DateTimeField()  # DateTimeField needed for Heatmap (Hour analysis)
+    sale_date = models.DateTimeField()
     total_revenue = models.DecimalField(max_digits=15, decimal_places=2, editable=False)
 
     def save(self, *args, **kwargs):
-        # Auto-calculate revenue on save
+        # Auto-calculate revenue
         self.total_revenue = self.product.price * self.quantity_sold
         super().save(*args, **kwargs)
 
     def __str__(self):
-        return f"{self.product.name} - {self.quantity_sold} units"
+        return f"{self.product.name} - {self.quantity_sold}"
