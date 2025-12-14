@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddc71cef-7c1b-4b3d-b2f8-e07452c71f4b" name="Changes" comment="Done Coding Further Fixes And Code Is Being Done In Future">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetailPulse/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RetailPulse/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-    </list>
+    <list default="true" id="ddc71cef-7c1b-4b3d-b2f8-e07452c71f4b" name="Changes" comment="Finally Done This Project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765634002202</updated>
-      <workItem from="1765634003229" duration="2732000" />
+      <workItem from="1765634003229" duration="3017000" />
     </task>
     <task id="LOCAL-00001" summary="Started Building Retail Pulse">
       <option name="closed" value="true" />
@@ -102,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765635395156</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finally Done This Project">
+      <option name="closed" value="true" />
+      <created>1765636899726</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765636899726</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started Building Retail Pulse" />
     <MESSAGE value="Done Coding Further Fixes And Code Is Being Done In Future" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done Coding Further Fixes And Code Is Being Done In Future" />
+    <MESSAGE value="Finally Done This Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finally Done This Project" />
   </component>
 </project>
