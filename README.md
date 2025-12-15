@@ -127,5 +127,8 @@ Contributions are welcome\! Please follow these steps:
 
 This project is open-source and available under the **MIT License**.
 
+---
 
-
+<p align="center">
+  <b>RetailPulse</b> • Created by <a href="https://github.com/Dharm3112"><b>Dharm Patel</b></a>
+</p>
