@@ -125,7 +125,7 @@ Contributions are welcome\! Please follow these steps:
 
 ## 📄 License
 
-This project is open-source and available under the **MIT License**.
+This project is open-source and available under the **[MIT License](https://github.com/Dharm3112/RetailPulse/blob/main/LICENSE)**.
 
 ---
 
